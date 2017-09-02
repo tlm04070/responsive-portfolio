@@ -130,7 +130,7 @@ nav a:first-child{
 	background: #fff;
 	padding: 30px;
 	width: 100%;
-	max-width: 270px;
+	max-width: 290px;
 	float: right;
 	border: 1px solid #ddd;
 	margin-bottom: 20px;
@@ -243,4 +243,114 @@ input[type=submit] {
 	font-size: 18px;
 	padding: 10px 30px;
 	cursor: pointer;
+}
+
+
+@media screen and (max-width: 980px){
+
+	.main-container{
+
+		width: 45%;
+		margin-left: 10%;
+	}
+
+	nav{
+		margin-right: 10%;
+
+	}
+
+	.sidebar{
+		margin-right: 3%;
+
+	}
+}
+@media screen and (max-width: 768px){
+
+.main-container{
+	width: 80%;
+}
+
+.auth-image{
+	width: 65%;
+
+}
+
+nav{
+	position: relative;
+	margin-right: 5%;
+	
+
+}
+
+nav a{
+	margin-left: 0;
+}
+
+.sidebar{
+ 	position: relative;
+ 	right: 44%;
+ 	
+ 
+}
+
+.work{
+	margin: auto;
+	margin-bottom: 5%;
+	width: 45%;
+}
+
+h3{
+	height: 45%;
+}
+
+
+
+
+
+
+@media screen and (max-width: 640px){
+
+		
+	
+
+	#logo{
+		width: 100%;
+	}
+
+	nav{
+		width: 100%;
+		text-align: center;
+
+	}
+
+	.main-container{
+		margin-top: 10%;
+	}
+
+	.auth-image{
+		width: 100%;
+		margin-bottom: 15%
+
+	}
+
+	.sidebar{
+		margin: 0 auto;
+		margin-bottom: 5%;
+		position: initial;
+		float: left;
+		margin-left: 10%;
+	
+	}
+
+	.work{
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	
+	
+
+
+
+
 }
